@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/health-app-frontend/static/css/main.7acaea2f.css",
+    "main.js": "/health-app-frontend/static/js/main.07d3183d.js",
+    "index.html": "/health-app-frontend/index.html",
+    "main.7acaea2f.css.map": "/health-app-frontend/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/health-app-frontend/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
