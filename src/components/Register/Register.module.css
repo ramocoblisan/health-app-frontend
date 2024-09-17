@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  color: #FC842D;
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin-bottom: 50px;
+    width: 85%;
+    gap: 20px;
+  }
+  
+  .input {
+    width: 95%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin-bottom: 5px;
+    color: #61646d;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.56px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #ff7f00;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin-top: 30px;
+  }
+  
+  .baseButton {
+    width: 100%;
+    padding: 10px 30px; 
+    background-color: #fff;
+    color: #ff7f00;
+    border: 2px solid #ff7f00;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+  }
+  
+  .activeButton {
+    background-color: #ff7f00;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  span {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .container {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 20px;
+    }
+  
+    .title {
+      margin-top: 120px;
+      margin-bottom: 40px;
+    }
+  
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .input {
+      padding-left: 0px;
+    }
+  
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 400px;
+    }
+  
+    .baseButton {
+      padding: 10px 35px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 1200px) {
+  
+    .title {
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
+  }

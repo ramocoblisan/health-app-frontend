@@ -1,0 +1,178 @@
+.header {
+  display: flex;
+  justify-content: center;
+  /* align-items:flex-start; */
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 2px solid #dbd7d7;
+  width: 98vw;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 46.667px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.dashboardLogo {
+  width: 105.301px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.navList {
+  display: none;
+}
+
+.userContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.userName {
+  color: #212121;
+  text-align: right;
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  padding-bottom: 10px;
+}
+
+.logoutButton {
+  background-color: #fff;
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  border: none;
+  border-left: 1px solid #9B9FAA;
+  padding: 0px;
+  /* padding-top: 10px; */
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-radius: 0;
+  padding-right: 10px;
+}
+
+.logoutText {
+  color: #9B9FAA;
+  padding-left: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .header {
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    position: relative;
+  }
+
+  .logoContainer{
+    display: flex;
+    padding-top: 0x;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+  }
+
+  .userContainer {
+    display: flex;
+    align-items: center;
+    order: -1; 
+    margin-top: 50px;
+    margin-right: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+  }
+
+  .logoutButton {
+    margin-right: 20px;
+  }
+
+  .burgerMenu {
+    order: 1; 
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .header {
+    border-bottom: none;
+  }
+
+  .logoContainer {
+    margin-top: 30px;
+    gap: 0px;
+  }
+
+  .logo {
+   padding-bottom: 20px;
+  }
+
+  .navList {
+    display: flex;
+  }
+
+  .listContainer {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin-top: 80px;
+    margin-left: 175px;
+    gap: 20px;
+  }
+
+  .diary {
+    border-left: 1px solid #9B9FAA;
+    padding-left: 10px;
+  }
+
+  .link {
+    color: #9B9FAA;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+  }
+
+  .activeLink {
+    color: #212121;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+  }
+
+  .userContainer {
+    display: none;
+    background-color: #F0F1F3;
+  }
+
+}

@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* background-color: #f4f4f4; */
+  width: 100%vh;
+  border-bottom: 2px solid #dbd7d7;
+  height: 50px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+  width: 46px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.logoTablet {
+  display: none;
+}
+
+.logoDesktop {
+  display: none;
+}
+
+.authButtons {
+  display: flex;
+  gap: 10px;
+  width: 80%vh;
+}
+
+.button {
+  color: #9B9FAA;
+  text-align: right;
+  font-family: Verdana;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+
+.activeButton {
+  color: #212121;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 768px) {
+
+  .logo {
+    display: none;
+  }
+
+  .logoTablet {
+    display: block;
+  }
+
+  .logoDesktop {
+    display: none;
+  }
+
+  .authButtons {
+    gap: 24px;
+  }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .logoTablet {
+    display: none;
+  }
+
+  .logoDesktop {
+    display: block;
+    width: 120px;
+    height: 50px;
+  }
+
+  .header {
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .authButtons {
+   margin-top: 35px;
+   border-left: 2px solid #dbd7d7;;
+   padding-left: 20px;
+   margin-left: 20px;
+  }
+
+}

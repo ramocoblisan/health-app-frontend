@@ -1,0 +1,153 @@
+  .calorieForm {
+    width: 80%;
+    /* margin: auto; */
+    padding: 20px 0px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+  
+  .title {
+    color: #212121;
+    font-family: Verdana;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+    padding-bottom: 20px;
+    }
+  
+  .formGroup {
+    margin-bottom: 25px;
+  }
+  
+  .input {
+    width: 95%;
+    padding: 8px;
+    padding-left: 0px;
+    border: none;
+    border-bottom: 1px solid #dbd7d7;
+    display: block;
+    margin-bottom: 5px;
+    color: #61646d;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.56px;
+  }
+
+  .input:focus {
+    outline: none;
+    border-color: #ff7f00;
+  }
+
+  .label {
+    color: #a1a7b6;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    margin-top: 10px;
+  }
+  
+  .radioGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .radioLabel {
+    display: inline-flex;
+    align-items: center;
+    color: #9B9FAA;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+  }
+  
+  .radioInput {
+    margin-right: 5px;
+  }
+
+  .submitContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+  .submitBtn {
+    width: 70%;
+    padding: 10px;
+    background-color: #ff7f00;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  
+  .submitBtn:hover {
+    background-color: #e67600;
+  }
+
+  @media screen and (min-width: 768px) {
+    
+    .title {
+      font-size: 34px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .inputContainer {
+      display: flex;
+      flex-direction: row;
+      gap: 32px;
+    }
+
+    .input {
+      padding-bottom: 15px;
+      padding-left: 0;
+    }
+
+    .radioGroup {
+      border-top: 1px solid #dbd7d7;
+      padding-top: 10px;
+    }
+
+    .submitContainer {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .submitBtn {
+      width: 160px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+
+    .title {
+      width: 608px;
+      margin-top: 80px;
+    }
+
+    .submitContainer {
+      margin-left: 300px;
+    }
+
+    .submitBtn {
+      width: 180px;
+    }
+  }
+  

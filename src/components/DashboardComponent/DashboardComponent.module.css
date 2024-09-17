@@ -1,0 +1,49 @@
+@media screen and (min-width: 1200px) {
+
+.dashboardContainer {
+  display: flex;
+  height: 100vh;
+}
+
+
+.content {
+  display: flex;
+  width: 100vw; 
+  padding: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch; 
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70vw; 
+}
+
+.dashboard {
+  width: 100%;
+  background-color: #fff; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.calculator {
+  flex: 0 0 70%; 
+  height: 100vh; 
+  background-color: #fff; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.summary {
+  flex: 0 0 30%; 
+  height: 100vh; 
+  background-color: #F0F1F3; 
+  padding: 20px;
+  box-sizing: border-box; 
+  overflow-y: auto; 
+}
+  
+}
+
