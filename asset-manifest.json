@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/health-app-frontend/static/css/main.5cd80ebc.css",
-    "main.js": "/health-app-frontend/static/js/main.55077d27.js",
+    "main.js": "/health-app-frontend/static/js/main.5be4cc56.js",
     "static/css/544.f60c7f57.chunk.css": "/health-app-frontend/static/css/544.f60c7f57.chunk.css",
     "static/js/544.e6373285.chunk.js": "/health-app-frontend/static/js/544.e6373285.chunk.js",
     "static/css/218.429f6059.chunk.css": "/health-app-frontend/static/css/218.429f6059.chunk.css",
@@ -19,7 +19,7 @@
     "static/js/524.b84fa1b1.chunk.js": "/health-app-frontend/static/js/524.b84fa1b1.chunk.js",
     "index.html": "/health-app-frontend/index.html",
     "main.5cd80ebc.css.map": "/health-app-frontend/static/css/main.5cd80ebc.css.map",
-    "main.55077d27.js.map": "/health-app-frontend/static/js/main.55077d27.js.map",
+    "main.5be4cc56.js.map": "/health-app-frontend/static/js/main.5be4cc56.js.map",
     "544.f60c7f57.chunk.css.map": "/health-app-frontend/static/css/544.f60c7f57.chunk.css.map",
     "544.e6373285.chunk.js.map": "/health-app-frontend/static/js/544.e6373285.chunk.js.map",
     "218.429f6059.chunk.css.map": "/health-app-frontend/static/css/218.429f6059.chunk.css.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.5cd80ebc.css",
-    "static/js/main.55077d27.js"
+    "static/js/main.5be4cc56.js"
   ]
 }
