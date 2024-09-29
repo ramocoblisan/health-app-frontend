@@ -13,37 +13,37 @@ const Calculator = lazy(() => import('../pages/Calculator/Calculator'));
 function App() {
   return (
     <AuthProvider>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route 
-            path="/dashboard" 
-            element={
-              <PrivateRoute>
-                <Dashboard />
-              </PrivateRoute>
-            } 
-          />
-          <Route 
-            path="/diary" 
-            element={
-              <PrivateRoute>
-                <Diary />
-              </PrivateRoute>
-            } 
-          />
-          <Route 
-            path="/calculator" 
-            element={
-              <PrivateRoute>
-                <Calculator />
-              </PrivateRoute>
-            } 
-          />
-        </Routes>
-      </Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route 
+              path="/dashboard" 
+              element={
+                <PrivateRoute>
+                  <Dashboard />
+                </PrivateRoute>
+              } 
+            />
+            <Route 
+              path="/diary" 
+              element={
+                <PrivateRoute>
+                  <Diary />
+                </PrivateRoute>
+              } 
+            />
+            <Route 
+              path="/calculator" 
+              element={
+                <PrivateRoute>
+                  <Calculator />
+                </PrivateRoute>
+              } 
+            />
+          </Routes>
+        </Suspense>
     </AuthProvider>
   );
 }

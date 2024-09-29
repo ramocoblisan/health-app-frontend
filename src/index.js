@@ -12,7 +12,7 @@ const root = createRoot(rootElement);
 
 root.render(
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/health-app-frontend">
       <App />
       </BrowserRouter>
     </Provider>
